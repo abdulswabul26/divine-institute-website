@@ -8,32 +8,15 @@
     <!-- CSS Links -->
      <link rel="stylesheet" href="css/reset.css">
      <link rel="stylesheet" href="css/header.css">
+     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-    <header>
-    <div><a href="index.php"><img class="logo" src="assets/logo/log.png" alt="logo"></a></div>
-
-    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-
-    <ul id="navList">
-        <li><a href="index.php">Home</a></li>
-        <li>About</li>
-        <li><a href="">News & Events</a></li>
-        <li><a href="">Admission</a></li>
-        <li><a href="">Contact</a></li>
-    </ul>
-
-    <a href="#" class="enroll">Enroll Now</a>
-</header>
+    <?php include("components/header.php"); ?>
 
 
-        <div id="ham">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        
-    </header>
+
+
+    <?php include("components/footer.php"); ?>
     
 </body>
 </html>
