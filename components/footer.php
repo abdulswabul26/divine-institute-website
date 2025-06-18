@@ -13,11 +13,18 @@
         <p class="footer_ttl">Reach out To Us</p>
 
         <p>Madison Complex Kawuku <br>Entebbe road Opposite <br>Petro Petrol station</p>
-        <a href="tel:+256393193339/+256742116258/+256751445829/+256772446131">+256393193339 
-            <br> +256742116258<br>+256751445829 <br>+256772446131</a>
+        <br>
+
+        <a href="tel:+256393193339">+256393193339</a>
+        <a href="tel:+256742116258">+256742116258</a>
+        <a href="tel:+256751445829">+256751445829</a>
+        <a href="tel:+256772446131">+256772446131</a>
+        <br>
         <a href="mailto:info@divineesthetics.com">info@divineesthetics.com</a>
-        <p>Opening Hours</p>
-        <p>7:30 am</p>
+        <br>
+        <p class="openHours">Opening Hours</p>
+        <p>Mon - Sat</p>
+        <p>7:30 am - 5:00 pm</p>
     </div>
 
     <div class="quickLinks">
@@ -34,14 +41,15 @@
 
     <div class="recentPosts">
         <p class="footer_ttl">Recent Posts</p>
+
         <div class="post_container">
             <div class="post">
                 <div class="post_img"></div>
                 <div class="post_info">
-                    <p>post head title</p>
+                    <a href="#" class="post_ttl">Pre-Test Exam for 2nd Year Students: Key Points</a>
                     <div class="postDate">
                         <div></div>
-                        <p class="post_date"></p>
+                        <p class="post_date">26 Aug 2023</p>
                     </div>
                 </div>
             </div>
