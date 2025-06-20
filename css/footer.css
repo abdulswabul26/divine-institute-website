@@ -1,11 +1,12 @@
 footer{
-    padding: 50px 0px;
     background-color: beige;
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
     gap: 16px;
-    padding: 16px;
+    padding: 70px 50px;
+    font-family: 'Segoe UI', sans-serif;
 }
+
 footer .about{
     width: 300px;
     min-width: 300px;
@@ -64,6 +65,12 @@ footer .post{
     display: flex;
     margin: 0 0 10px 0;
 }
+
+.post:hover {
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
 .post_img{
     width: 100px;
     min-width: 100px;
@@ -71,7 +78,20 @@ footer .post{
     margin: 0 10px 0 0;
     background-color: green;
 }
-.post_ttl{
-    font-size: 13px;
-    text-wrap: wrap;
+.post_ttl {
+  font-size: 13px;
+  overflow-wrap: break-word;
+  padding: 10px 0;
+}
+
+@media (max-width: 768px) {
+  footer {
+    grid-template-columns: 1fr;
+  }
+
+  footer .about,
+  footer .recentPosts {
+    width: 100%;
+    min-width: auto;
+  }
 }
