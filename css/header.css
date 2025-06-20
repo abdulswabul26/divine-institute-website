@@ -25,13 +25,13 @@ header ul {
 header ul li {
     margin: 0 20px;
     cursor: pointer;
+    position: relative;
 }
+/* 
+header ul li  .drpdwn{
+    display: none;
 
-header a, header ul :nth-child(2) {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
+} */
 
 /* Hide menu button initially */
 .menu-toggle {

@@ -2,7 +2,7 @@
     <div class="about">
         <div class="logo">
             <img src="assets/logo/log.png" alt="">
-            <p class="footer_ttls">Divine Esthetics Vocational & Business Institute </p>
+            <p class="footer_ttls">Divine Esthetics Vocational AND Business Institute </p>
         </div>
         <div class="abt_info">
             We are located at Kawuku Madison Complex Opposite Petro Petrol station along Entebbe Road . We are fully registered by the Ministry of Education under the Ministry Centre No. ME/VOC/492, UBTEB.
