@@ -53,6 +53,17 @@
                     </div>
                 </div>
             </div>
+            <br>
+            <div class="post">
+                <div class="post_img"></div>
+                <div class="post_info">
+                    <a href="#" class="post_ttl">Pre-Test Exam for 2nd Year Students: Key Points</a>
+                    <div class="postDate">
+                        <div></div>
+                        <p class="post_date">26 Aug 2023</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </footer>

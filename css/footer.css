@@ -1,11 +1,14 @@
 footer{
     padding: 50px 0px;
-    background-color: green;
-    display: flex;
-    justify-content: space-evenly;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 16px;
+    padding: 16px;
 }
 footer .about{
     width: 300px;
+    min-width: 300px;
 }
 footer .about .logo{
     display: flex;
@@ -53,12 +56,13 @@ footer .openHours{
 
 footer .recentPosts{
     width: 300px;
-    background-color: red;
+    /* background-color: red; */
     padding: 0 10px;
 }
-.post{
+footer .post{
     border: 1px solid black;
     display: flex;
+    margin: 0 0 10px 0;
 }
 .post_img{
     width: 100px;
